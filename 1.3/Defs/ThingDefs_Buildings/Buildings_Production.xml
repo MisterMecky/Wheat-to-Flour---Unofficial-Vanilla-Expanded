@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
     <ThingDef ParentName="BenchBase">
 		<defName>UVE_Quernstone</defName>
 		<label>quern</label>
@@ -26,6 +27,7 @@
 			<WorkToBuild>1800</WorkToBuild>
 			<MaxHitPoints>250</MaxHitPoints>
 			<Flammability>0</Flammability>
+            <WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
 		</statBases>
         <size>(1,1)</size>
 		<building>
@@ -45,6 +47,65 @@
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>UVE_GrainCultivation</li>
-		  </researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
 	</ThingDef>
+
+    <ThingDef ParentName="BenchBase">
+		<defName>UVE_MillingMachine</defName>
+		<label>milling machine</label>
+		<description>A machine used for milling grains into flour.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Workbenches/MillingMachine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.2,1.1)</drawSize>
+		</graphicData>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<uiIconScale>1.0</uiIconScale>
+		<fillPercent>0.6</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<Mass>10</Mass>
+			<WorkToBuild>1800</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0</Flammability>
+            <WorkTableWorkSpeedFactor>1.25</WorkTableWorkSpeedFactor>
+		</statBases>
+        <size>(2,1)</size>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+        <comps>
+            <li Class="CompProperties_Power">
+              <compClass>CompPowerTrader</compClass>
+              <shortCircuitInRain>true</shortCircuitInRain>
+              <basePowerConsumption>120</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+          </comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>UVE_GrainCultivation</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</ThingDef>
+
 </Defs>

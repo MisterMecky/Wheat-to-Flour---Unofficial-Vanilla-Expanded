@@ -1,34 +1,101 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
     <RecipeDef>
-        <defName>UVE_MillGrains</defName>
-        <label>mill grain into flour</label>
-        <description>Grind grains into usable flour.</description>
-        <jobString>Milling grain.</jobString>
-        <workSpeedStat>CookSpeed</workSpeedStat>
+		<defName>UVE_SmashGrains</defName>
+		<label>smash grain into flour</label>
+		<description>Smash grains into usable flour. A toilsome process.</description>
+		<jobString>Smashing grain.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<workAmount>400</workAmount>
+		<recipeUsers>
+			<li>CraftingSpot</li>					
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>UVE_RawWheat</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>UVE_RawWheat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<VCE_Flour>25</VCE_Flour>
+		</products>
+        <researchPrerequisite>UVE_GrainCultivation</researchPrerequisite>
+  	</RecipeDef>
+
+  	<RecipeDef>
+		<defName>UVE_MillGrainsQuern</defName>
+		<label>mill grain into flour</label>
+		<description>Grind grains into usable flour.</description>
+		<jobString>Milling grain.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workAmount>200</workAmount>
-        <recipeUsers>
+		<recipeUsers>
 			<li>UVE_Quernstone</li>					
 		</recipeUsers>
-        <ingredients>
-          <li>
-            <filter>
-              <thingDefs>
-                <li>UVE_RawWheat</li>
-              </thingDefs>
-            </filter>
-            <count>25</count>
-          </li>
-        </ingredients>
-        <fixedIngredientFilter>
-          <thingDefs>
-            <li>UVE_RawWheat</li>
-          </thingDefs>
-        </fixedIngredientFilter>
-        <products>
-          <VCE_Flour>25</VCE_Flour>
-        </products>
-    </RecipeDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>UVE_RawWheat</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>UVE_RawWheat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<VCE_Flour>25</VCE_Flour>
+		</products>
+  	</RecipeDef>
+
+    <RecipeDef>
+		<defName>UVE_MillGrainsMachine</defName>
+		<label>mill grain into flour</label>
+		<description>Grind grains into usable flour.</description>
+		<jobString>Milling grain.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>200</workAmount>
+		<recipeUsers>
+			<li>UVE_MillingMachine</li>					
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>UVE_RawWheat</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>UVE_RawWheat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<VCE_Flour>25</VCE_Flour>
+		</products>
+  	</RecipeDef>
+
 </Defs>

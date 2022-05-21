@@ -8,7 +8,8 @@
 		<workType>Cooking</workType>
 		<priorityInType>101</priorityInType>
 		<fixedBillGiverDefs>
-			<li>UVE_Quernstone</li>   
+			<li>UVE_Quernstone</li>
+            <li>UVE_MillingMachine</li> 
 		</fixedBillGiverDefs>
 		<verb>mill grain</verb>
 		<gerund>milling grains at</gerund>
