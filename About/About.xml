@@ -1,0 +1,9 @@
+<ModMetaData>
+  <name>Wheat to Flour - Unofficial Vanilla Expanded</name>
+  <description>Adds wheat to flour production.</description>
+  <author>MisterMecky</author>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <packageId>mistermecky.wheattoflouruve</packageId>
+</ModMetaData>
