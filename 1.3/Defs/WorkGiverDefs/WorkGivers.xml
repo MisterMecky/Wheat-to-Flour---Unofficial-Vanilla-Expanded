@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+    <WorkGiverDef>
+		<defName>UVE_MillGrain</defName>
+		<label>mill grain into flour</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Cooking</workType>
+		<priorityInType>101</priorityInType>
+		<fixedBillGiverDefs>
+			<li>UVE_Quernstone</li>   
+		</fixedBillGiverDefs>
+		<verb>mill grain</verb>
+		<gerund>milling grains at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>

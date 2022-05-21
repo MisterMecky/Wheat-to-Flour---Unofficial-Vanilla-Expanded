@@ -1,0 +1,41 @@
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+
+            <!-- VCE_Wheat -->
+
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/plant/harvestedThingDef</xpath>
+                <value>
+                    <harvestedThingDef>UVE_RawWheat</harvestedThingDef>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/description</xpath>
+                <value>
+                    <description>An amber cereal plant that takes almost an entire growing season to come to fruition.</description>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/plant</xpath>
+                <value>
+                    <sowResearchPrerequisites Inherit="False">
+                        <li>UVE_GrainCultivation</li>
+                    </sowResearchPrerequisites>
+                </value>
+            </li>
+
+            <!-- VCE_Bake --> 
+
+            <!-- TODO: FIX SO NO KIBBLE -->
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/RecipeDef[@Name="VCE_CookBakeMealBase" or @Name="VCE_CookGourmetBakeMealBase"]</xpath>
+                <value>
+                    <researchPrerequisite>UVE_GrainCultivation</researchPrerequisite>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+</Patch>

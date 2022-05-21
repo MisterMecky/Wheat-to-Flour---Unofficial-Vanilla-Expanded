@@ -3,7 +3,7 @@
     <ThingDef ParentName="BenchBase">
 		<defName>UVE_Quernstone</defName>
 		<label>quern</label>
-		<description>A quern stone used for milling wheat into flour.</description>
+		<description>A quern stone used for milling grains into flour.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Workbenches/Quern</texPath>
@@ -43,5 +43,8 @@
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
+		<researchPrerequisites>
+			<li>UVE_GrainCultivation</li>
+		  </researchPrerequisites>
 	</ThingDef>
 </Defs>

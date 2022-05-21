@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef>
+        <defName>UVE_MillGrains</defName>
+        <label>mill grain into flour</label>
+        <description>Grind grains into usable flour.</description>
+        <jobString>Milling grain.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>200</workAmount>
+        <recipeUsers>
+			<li>UVE_Quernstone</li>					
+		</recipeUsers>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>UVE_RawWheat</li>
+              </thingDefs>
+            </filter>
+            <count>25</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>UVE_RawWheat</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+          <VCE_Flour>25</VCE_Flour>
+        </products>
+    </RecipeDef>
+</Defs>

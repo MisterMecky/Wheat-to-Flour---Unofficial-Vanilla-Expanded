@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="RoughPlantBase">
+        <defName>UVE_RawWheat</defName>
+        <label>wheat</label>
+        <description>Wheat grains. Edible for animals, but requires processing for human consumption. Lasts a very long time.</description>
+        <graphicData>
+          <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
+          <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+          <MarketValue>0.6</MarketValue>
+        </statBases>
+        <comps>
+          <li Class="CompProperties_Rottable">
+            <daysToRotStart>120</daysToRotStart>
+            <rotDestroys>true</rotDestroys>
+          </li>
+        </comps>
+        <thingCategories>
+          <li>Foods</li>
+        </thingCategories>
+        <ingestible>
+          <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+        </ingestible>
+        <allowedArchonexusCount>400</allowedArchonexusCount>
+      </ThingDef>
+
+</Defs>
