@@ -62,7 +62,7 @@
 			<drawSize>(2.2,1.1)</drawSize>
 		</graphicData>
         <costList>
-            <Steel>75</Steel>
+            <Steel>100</Steel>
             <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
 		<altitudeLayer>Building</altitudeLayer>

@@ -26,11 +26,12 @@
                 </value>
             </li>
 
-            <!-- VCE_Bake --> 
+            <!-- VCE_Bakes --> 
 
-            <!-- TODO: FIX SO NO KIBBLE -->
             <li Class="PatchOperationAdd">
-                <xpath>/Defs/RecipeDef[@Name="VCE_CookBakeMealBase" or @Name="VCE_CookGourmetBakeMealBase"]</xpath>
+                <xpath>/Defs/RecipeDef[defName="VCE_CookBakeSimple" or defName="VCE_CookBakeSimpleBulk" or defName="VCE_CookBakeFine" or
+                                        defName="VCE_CookBakeFineBulk" or defName="VCE_CookBakeLavish" or defName="VCE_CookBakeLavishBulk" or
+                                        defName="VCE_CookBakeGourmet"]</xpath>
                 <value>
                     <researchPrerequisite>UVE_GrainCultivation</researchPrerequisite>
                 </value>
