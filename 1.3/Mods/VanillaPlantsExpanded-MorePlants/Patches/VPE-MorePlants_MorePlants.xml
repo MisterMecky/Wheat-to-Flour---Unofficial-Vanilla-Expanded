@@ -5,27 +5,27 @@
             <!-- VCE_Oats -->
             
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="VCE_Oats"]/plant/harvestedThingDef</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Oats"]/plant/harvestedThingDef</xpath>
                 <value>
                     <harvestedThingDef>VCE_RawOats</harvestedThingDef>
                 </value>
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="VCE_Oats"]/plant/harvestYield</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Oats"]/plant/harvestYield</xpath>
                 <value>
                     <harvestYield>30</harvestYield>
                 </value>
             </li>
 
             <li Class="PatchOperationRemove">
-                <xpath>/Defs/ThingDef[defName="VCE_Oats"]/plant/modExtensions/li[@Class="VanillaPlantsExpanded.DualCropExtension"]</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Oats"]/modExtensions/li[@Class="VanillaPlantsExpanded.DualCropExtension"]</xpath>
             </li>
 
             <!-- VCE_Rye -->
 
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="VCE_Rye"]/plant/harvestedThingDef</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Rye"]/plant/harvestedThingDef</xpath>
                 <value>
                     <harvestedThingDef>UVE_RawRye</harvestedThingDef>
                 </value>
@@ -34,7 +34,7 @@
             <!-- VCE_Sorghum -->
 
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="VCE_Sorghum"]/plant/harvestedThingDef</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Sorghum"]/plant/harvestedThingDef</xpath>
                 <value>
                     <harvestedThingDef>UVE_RawSorghum</harvestedThingDef>
                 </value>
@@ -43,7 +43,7 @@
             <!-- VCE_Barley -->
 
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="VCE_Barley"]/plant/harvestedThingDef</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Barley"]/plant/harvestedThingDef</xpath>
                 <value>
                     <harvestedThingDef>UVE_RawBarley</harvestedThingDef>
                 </value>

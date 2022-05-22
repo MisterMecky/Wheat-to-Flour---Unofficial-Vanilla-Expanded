@@ -5,20 +5,20 @@
             <!-- VCE_Wheat -->
 
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/plant/harvestedThingDef</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant/harvestedThingDef</xpath>
                 <value>
                     <harvestedThingDef>UVE_RawWheat</harvestedThingDef>
                 </value>
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/description</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Wheat"]/description</xpath>
                 <value>
                     <description>An amber cereal plant that takes almost an entire growing season to come to fruition.</description>
                 </value>
             </li>
             <li Class="PatchOperationAdd">
-                <xpath>/Defs/ThingDef[defName="VCE_Wheat"]/plant</xpath>
+                <xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant</xpath>
                 <value>
                     <sowResearchPrerequisites Inherit="False">
                         <li>UVE_GrainCultivation</li>
@@ -29,7 +29,7 @@
             <!-- VCE_Bakes --> 
 
             <li Class="PatchOperationAdd">
-                <xpath>/Defs/RecipeDef[defName="VCE_CookBakeSimple" or defName="VCE_CookBakeSimpleBulk" or defName="VCE_CookBakeFine" or
+                <xpath>Defs/RecipeDef[defName="VCE_CookBakeSimple" or defName="VCE_CookBakeSimpleBulk" or defName="VCE_CookBakeFine" or
                                         defName="VCE_CookBakeFineBulk" or defName="VCE_CookBakeLavish" or defName="VCE_CookBakeLavishBulk" or
                                         defName="VCE_CookBakeGourmet"]</xpath>
                 <value>

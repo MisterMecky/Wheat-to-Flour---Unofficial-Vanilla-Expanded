@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="RoughPlantBase">
+        <defName>UVE_RawRye</defName>
+        <label>rye</label>
+        <description>Rye grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.6</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>60</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <thingCategories>
+            <li>Foods</li>
+        </thingCategories>
+        <ingestible>
+            <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+        </ingestible>
+        <allowedArchonexusCount>400</allowedArchonexusCount>
+    </ThingDef>
+
+    <!-- TODO: Make usable in meals without processing -->
+    <ThingDef ParentName="RoughPlantBase">
+        <defName>UVE_RawBarley</defName>
+        <label>barley</label>
+        <description>Barley grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.6</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>60</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <thingCategories>
+            <li>Foods</li>
+        </thingCategories>
+        <ingestible>
+            <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+        </ingestible>
+        <allowedArchonexusCount>400</allowedArchonexusCount>
+    </ThingDef>
+
+    <ThingDef ParentName="RoughPlantBase">
+        <defName>UVE_RawSorghum</defName>
+        <label>sorghum</label>
+        <description>Sorghum grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>0.6</MarketValue>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>60</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <thingCategories>
+            <li>Foods</li>
+        </thingCategories>
+        <ingestible>
+            <optimalityOffsetFeedingAnimals>7</optimalityOffsetFeedingAnimals>
+        </ingestible>
+        <allowedArchonexusCount>400</allowedArchonexusCount>
+    </ThingDef>
+
+</Defs>
