@@ -2,7 +2,7 @@
 <Defs>
 
     <ResearchProjectDef>
-        <defName>UVE_GrainCultivation</defName>
+        <defName>MKY_GrainCultivation</defName>
         <label>grain cultivation</label>
         <tab>VCE_Cooking</tab>
         <description>Cultivate grains and process it into useable flour.</description>
@@ -13,14 +13,14 @@
     </ResearchProjectDef>
 
     <ResearchProjectDef>
-        <defName>UVE_AdvancedMilling</defName>
+        <defName>MKY_AdvancedMilling</defName>
         <label>advanced milling</label>
         <tab>VCE_Cooking</tab>
         <description>Build mindmills for automatic flour milling.</description>
         <baseCost>1000</baseCost>
         <techLevel>Neolithic</techLevel>
         <prerequisites>
-            <li>UVE_GrainCultivation</li>
+            <li>MKY_GrainCultivation</li>
         </prerequisites>
         <researchViewX>1.00</researchViewX>
         <researchViewY>3.00</researchViewY>

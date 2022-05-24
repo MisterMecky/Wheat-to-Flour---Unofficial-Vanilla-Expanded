@@ -1,4 +1,4 @@
-## Wheat to Flour - Unofficial Vanilla Expanded
+## Wheat to Flour
 
 ![Preview](/About/Preview.png)
 

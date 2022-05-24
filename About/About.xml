@@ -1,5 +1,5 @@
 <ModMetaData>
-    <name>Wheat to Flour - Unofficial Vanilla Expanded</name>
+    <name>Wheat to Flour DEV</name>
     <description>Adds wheat to flour production.</description>
     <author>MisterMecky</author>
     <supportedVersions>
@@ -19,5 +19,5 @@
 			<downloadUrl>https://github.com/juanosarg/VanillaCookingExpanded</downloadUrl>
 		</li>
 	</modDependencies>
-    <packageId>MisterMecky.WheatToFlourUVE</packageId>
+    <packageId>MisterMecky.WheatToFlourMKYDev</packageId>
 </ModMetaData>

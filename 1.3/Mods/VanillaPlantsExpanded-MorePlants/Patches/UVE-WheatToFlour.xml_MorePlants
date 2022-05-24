@@ -3,22 +3,22 @@
         <operations>
 
             <li Class="PatchOperationAdd">
-                <xpath>Defs/RecipeDef[defName="UVE_SmashGrains" or defName="UVE_MillGrainsQuern" or defName="UVE_MillGrainsMachine"]/ingredients/li/filter/thingDefs</xpath>
+                <xpath>Defs/RecipeDef[defName="MKY_SmashGrains" or defName="MKY_MillGrainsQuern" or defName="MKY_MillGrainsMachine"]/ingredients/li/filter/thingDefs</xpath>
                 <value>
                     <li>VCE_RawOats</li>
-                    <li>UVE_RawRye</li>
-                    <li>UVE_RawSorghum</li>
-                    <li>UVE_RawBarley</li>
+                    <li>MKY_RawRye</li>
+                    <li>MKY_RawSorghum</li>
+                    <li>MKY_RawBarley</li>
                 </value>
             </li>
 
             <li Class="PatchOperationAdd">
-                <xpath>Defs/RecipeDef[defName="UVE_SmashGrains" or defName="UVE_MillGrainsQuern" or defName="UVE_MillGrainsMachine"]/fixedIngredientFilter/thingDefs</xpath>
+                <xpath>Defs/RecipeDef[defName="MKY_SmashGrains" or defName="MKY_MillGrainsQuern" or defName="MKY_MillGrainsMachine"]/fixedIngredientFilter/thingDefs</xpath>
                 <value>
                     <li>VCE_RawOats</li>
-                    <li>UVE_RawRye</li>
-                    <li>UVE_RawSorghum</li>
-                    <li>UVE_RawBarley</li>
+                    <li>MKY_RawRye</li>
+                    <li>MKY_RawSorghum</li>
+                    <li>MKY_RawBarley</li>
                 </value>
             </li>
 

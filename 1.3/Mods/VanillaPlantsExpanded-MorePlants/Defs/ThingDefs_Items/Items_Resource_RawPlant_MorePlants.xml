@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="RoughPlantBase">
-        <defName>UVE_RawRye</defName>
+        <defName>MKY_RawRye</defName>
         <label>rye</label>
         <description>Rye grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
         <graphicData>
@@ -29,7 +29,7 @@
 
     <!-- TODO: Make usable in meals without processing -->
     <ThingDef ParentName="RoughPlantBase">
-        <defName>UVE_RawBarley</defName>
+        <defName>MKY_RawBarley</defName>
         <label>barley</label>
         <description>Barley grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
         <graphicData>
@@ -55,7 +55,7 @@
     </ThingDef>
 
     <ThingDef ParentName="RoughPlantBase">
-        <defName>UVE_RawSorghum</defName>
+        <defName>MKY_RawSorghum</defName>
         <label>sorghum</label>
         <description>Sorghum grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
         <graphicData>

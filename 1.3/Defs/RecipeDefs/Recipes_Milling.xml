@@ -3,7 +3,7 @@
 
     <!-- TODO: ?? Make abstract to inherit from ?? -->
 	<RecipeDef>
-		<defName>UVE_SmashGrains</defName>
+		<defName>MKY_SmashGrains</defName>
 		<label>smash grain into flour</label>
 		<description>Smash grains into usable flour. A toilsome process.</description>
 		<jobString>Smashing grain.</jobString>
@@ -18,7 +18,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>UVE_RawWheat</li>
+						<li>MKY_RawWheat</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -26,17 +26,17 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>UVE_RawWheat</li>
+				<li>MKY_RawWheat</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<VCE_Flour>25</VCE_Flour>
 		</products>
-        <researchPrerequisite>UVE_GrainCultivation</researchPrerequisite>
+        <researchPrerequisite>MKY_GrainCultivation</researchPrerequisite>
   	</RecipeDef>
 
   	<RecipeDef>
-		<defName>UVE_MillGrainsQuern</defName>
+		<defName>MKY_MillGrainsQuern</defName>
 		<label>mill grain into flour</label>
 		<description>Grind grains into usable flour.</description>
 		<jobString>Milling grain.</jobString>
@@ -45,13 +45,13 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workAmount>200</workAmount>
 		<recipeUsers>
-			<li>UVE_Quernstone</li>					
+			<li>MKY_Quernstone</li>					
 		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>UVE_RawWheat</li>
+						<li>MKY_RawWheat</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -59,7 +59,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>UVE_RawWheat</li>
+				<li>MKY_RawWheat</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -68,7 +68,7 @@
   	</RecipeDef>
 
     <RecipeDef>
-		<defName>UVE_MillGrainsMachine</defName>
+		<defName>MKY_MillGrainsMachine</defName>
 		<label>mill grain into flour</label>
 		<description>Grind grains into usable flour.</description>
 		<jobString>Milling grain.</jobString>
@@ -77,13 +77,13 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>200</workAmount>
 		<recipeUsers>
-			<li>UVE_MillingMachine</li>					
+			<li>MKY_MillingMachine</li>					
 		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>UVE_RawWheat</li>
+						<li>MKY_RawWheat</li>
 					</thingDefs>
 				</filter>
 				<count>25</count>
@@ -91,7 +91,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>UVE_RawWheat</li>
+				<li>MKY_RawWheat</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

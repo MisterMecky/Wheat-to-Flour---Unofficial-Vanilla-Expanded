@@ -7,7 +7,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant/harvestedThingDef</xpath>
                 <value>
-                    <harvestedThingDef>UVE_RawWheat</harvestedThingDef>
+                    <harvestedThingDef>MKY_RawWheat</harvestedThingDef>
                 </value>
             </li>
 
@@ -21,7 +21,7 @@
                 <xpath>Defs/ThingDef[defName="VCE_Wheat"]/plant</xpath>
                 <value>
                     <sowResearchPrerequisites Inherit="False">
-                        <li>UVE_GrainCultivation</li>
+                        <li>MKY_GrainCultivation</li>
                     </sowResearchPrerequisites>
                 </value>
             </li>
@@ -33,7 +33,7 @@
                                         defName="VCE_CookBakeFineBulk" or defName="VCE_CookBakeLavish" or defName="VCE_CookBakeLavishBulk" or
                                         defName="VCE_CookBakeGourmet"]</xpath>
                 <value>
-                    <researchPrerequisite>UVE_GrainCultivation</researchPrerequisite>
+                    <researchPrerequisite>MKY_GrainCultivation</researchPrerequisite>
                 </value>
             </li>
 

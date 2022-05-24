@@ -2,14 +2,14 @@
 <Defs>
     
     <WorkGiverDef>
-		<defName>UVE_MillGrain</defName>
+		<defName>MKY_MillGrain</defName>
 		<label>mill grain into flour</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Cooking</workType>
 		<priorityInType>101</priorityInType>
 		<fixedBillGiverDefs>
-			<li>UVE_Quernstone</li>
-            <li>UVE_MillingMachine</li> 
+			<li>MKY_Quernstone</li>
+            <li>MKY_MillingMachine</li> 
 		</fixedBillGiverDefs>
 		<verb>mill grain</verb>
 		<gerund>milling grains at</gerund>

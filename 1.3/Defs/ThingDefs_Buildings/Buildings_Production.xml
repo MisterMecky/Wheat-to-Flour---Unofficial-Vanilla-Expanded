@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="BenchBase">
-		<defName>UVE_Quernstone</defName>
+		<defName>MKY_Quernstone</defName>
 		<label>quern</label>
 		<description>A quern stone used for milling grains into flour.</description>
 		<thingClass>Building_WorkTable</thingClass>
@@ -46,13 +46,13 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>UVE_GrainCultivation</li>
+			<li>MKY_GrainCultivation</li>
 			<li>Stonecutting</li>
 		</researchPrerequisites>
 	</ThingDef>
 
     <ThingDef ParentName="BenchBase">
-		<defName>UVE_MillingMachine</defName>
+		<defName>MKY_MillingMachine</defName>
 		<label>milling machine</label>
 		<description>A machine used for milling grains into flour.</description>
 		<thingClass>Building_WorkTable</thingClass>
@@ -103,7 +103,7 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<researchPrerequisites>
-			<li>UVE_GrainCultivation</li>
+			<li>MKY_GrainCultivation</li>
 			<li>Electricity</li>
 		</researchPrerequisites>
 	</ThingDef>

@@ -27,7 +27,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VCE_Rye"]/plant/harvestedThingDef</xpath>
                 <value>
-                    <harvestedThingDef>UVE_RawRye</harvestedThingDef>
+                    <harvestedThingDef>MKY_RawRye</harvestedThingDef>
                 </value>
             </li>
 
@@ -36,7 +36,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VCE_Sorghum"]/plant/harvestedThingDef</xpath>
                 <value>
-                    <harvestedThingDef>UVE_RawSorghum</harvestedThingDef>
+                    <harvestedThingDef>MKY_RawSorghum</harvestedThingDef>
                 </value>
             </li>
 
@@ -45,7 +45,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VCE_Barley"]/plant/harvestedThingDef</xpath>
                 <value>
-                    <harvestedThingDef>UVE_RawBarley</harvestedThingDef>
+                    <harvestedThingDef>MKY_RawBarley</harvestedThingDef>
                 </value>
             </li>
 
