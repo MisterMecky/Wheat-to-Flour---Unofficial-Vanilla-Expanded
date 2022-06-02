@@ -14,7 +14,7 @@
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VCE_Oats"]/plant/harvestYield</xpath>
                 <value>
-                    <harvestYield>30</harvestYield>
+                    <harvestYield>20</harvestYield>
                 </value>
             </li>
 
@@ -22,12 +22,26 @@
                 <xpath>Defs/ThingDef[defName="VCE_Oats"]/modExtensions/li[@Class="VanillaPlantsExpanded.DualCropExtension"]</xpath>
             </li>
 
+            <!-- <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VCE_Oats"]/description</xpath>
+                <value>
+                    <description>The oat, sometimes called the common oat, is a species of cereal grain grown for its seed, which is known by the same name. Oats have numerous uses in gastronomy, and they can also be turned into vegetable milk.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Oat has low yield, but it is very versatile, being a "dual crop", in the sense that it produces both flour and oats which can be either used as a vegetable or turned into milk.</description>
+                </value>
+            </li> -->
+
             <!-- VCE_Rye -->
 
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VCE_Rye"]/plant/harvestedThingDef</xpath>
                 <value>
                     <harvestedThingDef>MKY_RawRye</harvestedThingDef>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VCE_Rye"]/description</xpath>
+                <value>
+                    <description>A plant that grows well in much poorer soils than those necessary for most cereal grains. Thus, it is an especially valuable crop in regions where the soil has sand or peat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Rye is only growable in sandy growing zones, which ignore fertility. These plants will however take a long time to sow and harvest, basically exchanging colonist work for growing plants in a normally unused space. Rye needs to be grown away from large bodies of water (water within 10 tiles of it will stop its growth).</description>
                 </value>
             </li>
 
@@ -40,12 +54,26 @@
                 </value>
             </li>
 
+            <!-- <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VCE_Sorghum"]/description</xpath>
+                <value>
+                    <description>A drought resistant cereal used for food, animal fodder, the production of alcoholic beverages, and biofuels. Sorghum grain is gluten free, high in resistant starch, and more abundant and diverse phenolic compounds compared to other major cereal crops.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Sorghum stalks can grow to up to 2.5 meters in height, and grow very close together. A sorghum field can be used as quite effective cover.</description>
+                </value>
+            </li> -->
+
             <!-- VCE_Barley -->
 
             <li Class="PatchOperationReplace">
                 <xpath>Defs/ThingDef[defName="VCE_Barley"]/plant/harvestedThingDef</xpath>
                 <value>
                     <harvestedThingDef>MKY_RawBarley</harvestedThingDef>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName="VCE_Barley"]/description</xpath>
+                <value>
+                    <description>A cereal grain that people can use in bread, beverages, stews, and other dishes. As a whole grain, barley provides fiber, vitamins, and minerals.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Barley is a "dual crop", in the sense that it produces both flour and hay.</description>
                 </value>
             </li>
 

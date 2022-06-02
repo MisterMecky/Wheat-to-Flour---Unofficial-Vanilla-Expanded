@@ -12,7 +12,7 @@
         <researchViewY>3.00</researchViewY>
     </ResearchProjectDef>
 
-    <ResearchProjectDef>
+    <!-- <ResearchProjectDef>
         <defName>MKY_AdvancedMilling</defName>
         <label>advanced milling</label>
         <tab>VCE_Cooking</tab>
@@ -24,6 +24,6 @@
         </prerequisites>
         <researchViewX>1.00</researchViewX>
         <researchViewY>3.00</researchViewY>
-    </ResearchProjectDef>
+    </ResearchProjectDef> -->
 
 </Defs>

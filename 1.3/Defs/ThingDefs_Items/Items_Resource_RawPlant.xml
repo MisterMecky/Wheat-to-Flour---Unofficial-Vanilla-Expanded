@@ -10,7 +10,7 @@
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
         <statBases>
-            <MarketValue>0.6</MarketValue>
+            <MarketValue>1.1</MarketValue>
         </statBases>
         <comps>
             <li Class="CompProperties_Rottable">

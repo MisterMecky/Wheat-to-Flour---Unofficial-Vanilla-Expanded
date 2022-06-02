@@ -2,6 +2,7 @@
 <Defs>
 
     <!-- TODO: ?? Make abstract to inherit from ?? -->
+
 	<RecipeDef>
 		<defName>MKY_SmashGrains</defName>
 		<label>smash grain into flour</label>
