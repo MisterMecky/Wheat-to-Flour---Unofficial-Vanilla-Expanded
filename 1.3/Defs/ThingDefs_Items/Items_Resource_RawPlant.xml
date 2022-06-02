@@ -6,8 +6,7 @@
         <label>wheat</label>
         <description>Wheat grains. Edible for animals, but requires processing for human consumption. Lasts a very long time.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
+            <texPath>Things/Item/Raw/MKY_RawWheat</texPath>
         </graphicData>
         <statBases>
             <MarketValue>1.1</MarketValue>

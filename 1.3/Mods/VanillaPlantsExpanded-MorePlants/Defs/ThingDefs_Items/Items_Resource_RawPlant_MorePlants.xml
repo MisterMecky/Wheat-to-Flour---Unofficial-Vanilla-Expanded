@@ -6,8 +6,7 @@
         <label>rye</label>
         <description>Rye grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
+            <texPath>Things/Item/Raw/MKY_RawRye</texPath>
         </graphicData>
         <statBases>
             <MarketValue>1.1</MarketValue>
