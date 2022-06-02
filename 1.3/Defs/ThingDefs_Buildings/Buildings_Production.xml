@@ -59,7 +59,7 @@
 		<graphicData>
 			<texPath>Things/Building/Workbenches/MillingMachine</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2.2,1.1)</drawSize>
+			<drawSize>(2.6,1.3)</drawSize>
 		</graphicData>
         <costList>
             <Steel>100</Steel>
@@ -68,7 +68,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
 		<uiIconScale>1.0</uiIconScale>
-		<fillPercent>0.6</fillPercent>
+		<fillPercent>1.0</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
 			<Mass>10</Mass>

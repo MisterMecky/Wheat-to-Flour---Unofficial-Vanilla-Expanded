@@ -33,8 +33,7 @@
         <label>barley</label>
         <description>Barley grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
+            <texPath>Things/Items/Raw/VCE_Barley</texPath>
         </graphicData>
         <statBases>
             <MarketValue>0.6</MarketValue>
@@ -59,8 +58,7 @@
         <label>sorghum</label>
         <description>Sorghum grains. Edible for animals, but requires processing for human consumption. Lasts a long time.</description>
         <graphicData>
-            <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
+            <texPath>Things/Items/Raw/VCE_Sorghum</texPath>
         </graphicData>
         <statBases>
             <MarketValue>0.6</MarketValue>
